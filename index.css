@@ -2,21 +2,16 @@
 
 * {
   box-sizing: border-box;
-  font-weight: 800;
+  -webkit-text-stroke: 0.001px yellow;
 }
 
 body {
-  background: #c5c5c5 url('./img/bg.jpg') no-repeat center center/cover;
+  background: #c5c5c5 no-repeat center;
   color: #fff;
   font-family: 'Montserrat', sans-serif;
-  min-height: 100vh;
-  overflow: hidden;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin: 0;
+  margin: 40px; 
   background-image: url(img/retro5.jpg);
-  background-size: 500px;
+  background-size: 700px;
 }
 
 .container {
@@ -113,4 +108,9 @@ body {
   to {
     transform: scale(1);
   }
+}
+
+.part{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
 }
